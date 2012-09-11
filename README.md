@@ -28,21 +28,21 @@ Installation
 ------------
 1. Clone this repo (or [download as a zip](https://github.com/TheRealJoeLinux/logitech-prober/zipball/master)), and then *cd* into the resulting directory.
 
-    `$ git clone git://github.com/TheRealJoeLinux/logitech-prober.git`
+    $ git clone git://github.com/TheRealJoeLinux/logitech-prober.git
 
-    `$ cd logitech-prober/`
+    $ cd logitech-prober/
 
 2. Install the packages "build-essential" and "libx11-dev", if you don't have them already.
 
-    `$ sudo apt-get install build-essential libx11-dev`
+    $ sudo apt-get install build-essential libx11-dev
 
 3. Compile the file that spits out your mouse's X coordinates
 
-    `$ make`
+    $ make
 
 4. Install the script and newly compiled file
 
-    `$ sudo make install`
+    $ sudo make install
 
 5. **Next time you start up your computer, just start wiggling the mouse left and right as soon as the mouse cursor shows up on screen. Once it starts moving, you should be set!**
 
@@ -50,4 +50,4 @@ Removal
 -------
 Simply run the following command (within the project directory of course):
 
-    `$ sudo make uninstall`
+    $ sudo make uninstall
