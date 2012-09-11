@@ -14,7 +14,8 @@ Turns out, it's not a matter of Ubuntu being incompatible, it's just that it app
 *This is easily solved by simply reloading the appropriate modules again to force the system to probe.*
 
 You can run this command to do so:
-`$ sudo modprobe -r hid_logitech_dj && sudo modprobe -r usbhid && sudo modprobe usbhid`
+
+    $ sudo modprobe -r hid_logitech_dj && sudo modprobe -r usbhid && sudo modprobe usbhid
 
 Of course, that's a pain. This repo is the solution.
 
@@ -26,25 +27,24 @@ _Once you've followed the installation instructions below, you should be able to
 
 Installation
 ------------
-1. Clone this repo (or [download as a zip](https://github.com/TheRealJoeLinux/logitech-prober/zipball/master)), and then *cd* into the resulting directory.
+Clone this repo (or [download as a zip](https://github.com/TheRealJoeLinux/logitech-prober/zipball/master)), and then *cd* into the resulting directory.
 
     $ git clone git://github.com/TheRealJoeLinux/logitech-prober.git
-
     $ cd logitech-prober/
 
-2. Install the packages "build-essential" and "libx11-dev", if you don't have them already.
+Install the packages "build-essential" and "libx11-dev", if you don't have them already.
 
     $ sudo apt-get install build-essential libx11-dev
 
-3. Compile the file that spits out your mouse's X coordinates
+Compile the file that spits out your mouse's X coordinates
 
     $ make
 
-4. Install the script and newly compiled file
+Install the script and newly compiled file
 
     $ sudo make install
 
-5. **Next time you start up your computer, just start wiggling the mouse left and right as soon as the mouse cursor shows up on screen. Once it starts moving, you should be set!**
+**Next time you start up your computer, just start wiggling the mouse left and right as soon as the mouse cursor shows up on screen. Once it starts moving, you should be set!**
 
 Removal
 -------
