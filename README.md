@@ -29,7 +29,7 @@ Installation
 1. Clone this repo (or [download as a zip](https://github.com/TheRealJoeLinux/logitech-prober/zipball/master)), and then *cd* into the resulting directory.
 > $ git clone git://github.com/TheRealJoeLinux/logitech-prober.git
 > $ cd logitech-prober/
-2. Install the packages [build-essential](apt:build-essential) and [libx11-dev](apt:libx11-dev), if you don't have them already.
+2. Install the packages "build-essential" and "libx11-dev", if you don't have them already.
 > $ sudo apt-get install build-essential libx11-dev
 3. Compile the file that spits out your mouse's X coordinates
 > $ make
