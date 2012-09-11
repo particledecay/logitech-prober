@@ -40,20 +40,14 @@ Installation
 
     `$ make`
 
-4. Copy the resulting executable to /usr/local/bin/ (or wherever you want, just edit "logitech-prober.sh" to reflect where you have placed it).
+4. Install the script and newly compiled file
 
-    `$ sudo cp ./xquery-pointer-x /usr/local/bin/`
+    `$ sudo make install`
 
-5. Copy the script "logitech-prober.sh" somewhere (preferably to wherever you copied "xquery-pointer-x"), and make note of the location.
+5. **Next time you start up your computer, just start wiggling the mouse left and right as soon as the mouse cursor shows up on screen. Once it starts moving, you should be set!**
 
-    `$ sudo cp ./logitech-prober.sh /usr/local/bin/`
+Removal
+-------
+Simply run the following command (within the project directory of course):
 
-6. Add the script to your "/etc/rc.local" file, somewhere _above_ the line that says "exit 0" (that's typically the last line of the file).
-
-    `$ sudo sed -i '$i /usr/local/bin/logitech-prober.sh' /etc/rc.local`
-
-7. **Next time you start up your computer, just start wiggling the mouse left and right as soon as the mouse cursor shows up on screen. Once it starts moving, you should be set!**
-
-Notes
------
-I realize this is kind of a manual process. I may come up with some sort of install script sometime; I'm just pretty pressed for time these days.
+    `$ sudo make uninstall`
