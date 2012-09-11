@@ -29,6 +29,7 @@ Installation
 1. Clone this repo (or [download as a zip](https://github.com/TheRealJoeLinux/logitech-prober/zipball/master)), and then *cd* into the resulting directory.
 
     `$ git clone git://github.com/TheRealJoeLinux/logitech-prober.git`
+
     `$ cd logitech-prober/`
 
 2. Install the packages "build-essential" and "libx11-dev", if you don't have them already.
