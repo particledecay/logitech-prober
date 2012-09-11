@@ -52,7 +52,7 @@ Installation
 
     `$ sudo sed -i '$i /usr/local/bin/logitech-prober.sh' /etc/rc.local`
 
-7. Next time you start up your computer, just start wiggling the mouse left and right as soon as the mouse cursor shows up on screen. Once it starts moving, you should be set!
+7. **Next time you start up your computer, just start wiggling the mouse left and right as soon as the mouse cursor shows up on screen. Once it starts moving, you should be set!**
 
 Notes
 -----
