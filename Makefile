@@ -16,6 +16,7 @@ install:
 		echo "Copying logitech-prober.sh to ${INSTALL_PREFIX}/bin/..."; \
 		cp logitech-prober.sh ${INSTALL_PREFIX}/bin/; \
 		echo "Setting script to execute upon boot..."; \
+		sed -i '/logitech-prober.sh$$/d' /etc/rc.local; \
 		sed -i '$$i ${INSTALL_PREFIX}/bin/logitech-prober.sh' /etc/rc.local; \
 	fi
 
