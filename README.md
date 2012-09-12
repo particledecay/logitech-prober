@@ -46,6 +46,8 @@ Install the script and newly compiled file
 
 **Next time you start up your computer, just start wiggling the mouse left and right as soon as the mouse cursor shows up on screen. Once it starts moving, you should be set!**
 
+Alternatively, you can just run `/usr/local/bin/logitech-prober.sh` once you've gone through the installation steps above, and just keep wiggling the mouse left and right until it moves on screen.
+
 Removal
 -------
 Simply run the following command (within the project directory of course):
