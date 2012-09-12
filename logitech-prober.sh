@@ -7,7 +7,7 @@ newmousepos=$mousepos
 
 while [ $newmousepos -eq $mousepos ]
 do
-    modprobe -r hid_logitech_dj && modprobe -r usbhid && modprobe usbhid
+    modprobe -r hid_logitech_dj && modprobe hid_logitech_dj
     sleep 2
     newmousepos=`$MOUSEBIN`
 done

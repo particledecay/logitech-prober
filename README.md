@@ -15,7 +15,7 @@ Turns out, it's not a matter of Ubuntu being incompatible, it's just that it app
 
 You can run this command to do so:
 
-    $ sudo modprobe -r hid_logitech_dj && sudo modprobe -r usbhid && sudo modprobe usbhid
+    $ sudo modprobe -r hid_logitech_dj && sudo modprobe hid_logitech_dj
 
 Of course, that's a pain. This repo is the solution.
 
