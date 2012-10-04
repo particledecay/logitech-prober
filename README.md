@@ -11,9 +11,9 @@ The Other Problem
 -----------------
 Turns out, it's not a matter of Ubuntu being incompatible, it's just that it appears to fail after the initial probe (reference open bugs [046d:c52b USB3 port Logitech mouse using unifying receiver not always detected](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1039143) and [046d:c52b Cannot use logitech mouse M324 (Unifying Receiver)](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1028806)) , and never bothers re-probing for nearby wireless devices again.
 
-_Side Note: Once the above-referenced bugs are closed, hopefully there will no longer be a need for this utility or others like it._
+**This is easily solved by simply reloading the appropriate modules again to force the system to probe.**
 
-*This is easily solved by simply reloading the appropriate modules again to force the system to probe.*
+_Side Note: Once the above-referenced bugs are closed, hopefully there will no longer be a need for this utility or others like it._
 
 You can run this command to do so:
 
